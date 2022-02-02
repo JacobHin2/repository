@@ -3,6 +3,7 @@ pub const PackageDescription = struct {
     tags: [][]const u8,
     git: []const u8,
     root_file: ?[]const u8,
+    license: ?[]const u8,
     description: []const u8,
 };
 
